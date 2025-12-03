@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone-Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/vivek9325/tweet-ttrend.git'
+                git branch: 'main', url: 'https://github.com/viniprince39/branchmulti.git'
             }
         }
         
